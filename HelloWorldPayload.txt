@@ -1,0 +1,10 @@
+REM Title: Hello World
+REM Description: Opens notepad, types hello world
+REM Author: Agneay B Nair
+DELAY 1000
+GUI r
+DELAY 100
+STRING C:\windows\notepad.exe
+ENTER
+DELAY 2000
+STRING Hello, World
