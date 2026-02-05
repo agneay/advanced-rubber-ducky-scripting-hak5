@@ -1,0 +1,2 @@
+*.txt linguist-detectable=true
+docs/*.txt linguist-detectable=false
