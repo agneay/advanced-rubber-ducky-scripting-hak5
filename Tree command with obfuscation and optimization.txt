@@ -1,0 +1,9 @@
+REM Title: Tree with obfuscation and optimisation
+REM Description: Opens cmd, execute tree command
+REM Author: Agneay B Nair
+DELAY 1000
+GUI r
+DELAY 100
+STRING cmd /C color FE&mode con:cols=18 lines=1&tree 
+ENTER
+
