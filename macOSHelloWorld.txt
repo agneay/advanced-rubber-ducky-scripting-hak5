@@ -1,0 +1,11 @@
+REM A bit more advanced macOS "hello world"
+DELAY 3000
+REM Open spotlight Search
+COMMAND SPACE
+REM Open the text editor
+STRING TextEdit
+ENTER
+DELAY 2000
+COMMAND n
+DELAY 2000
+STRING Hello, World!

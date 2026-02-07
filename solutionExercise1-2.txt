@@ -1,0 +1,14 @@
+REM Title: Solution to exercise 1-2
+REM Author: Agneay B Nair
+REM Target: Windows 11
+
+DELAY 2000
+GUI r
+DELAY 500
+STRINGLN cmd
+DELAY 1000
+STRINGLN dir
+DELAY 5000
+ALT SPACE
+DELAY 1000
+STRINGLN n
