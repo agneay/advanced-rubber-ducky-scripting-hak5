@@ -1,0 +1,1 @@
+IF ($_BUTTON_USER_DEFINED == TRUE) THEN    REM Pressing the button will run     REM the user defined BUTTON_DEFEND_IF

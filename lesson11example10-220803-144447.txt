@@ -1,0 +1,1 @@
+BUTTON_DEF  STRINGLN The button was pressed!  DISABLE_BUTTON  STRING Pressing the button again   STRINGLN will do nothing.END_BUTTONSTRING Press the button at any time STRING to execute the button definitionWHILE TRUE  STRING .END_WHILE

@@ -1,0 +1,1 @@
+BUTTON_DEF    $_BUTTON_USER_DEFINED = FALSE    REM Pressing the button will disable the button definitionEND_BUTTON

@@ -1,0 +1,7 @@
+REM if then else
+
+IF ($_CAPSLOCK_ON == TRUE) THEN
+    STRING Capslock is on!
+ELSE IF ($_CAPSLOCK_ON == FALSE) THEN
+    STRING Capslock is off!
+END_IF

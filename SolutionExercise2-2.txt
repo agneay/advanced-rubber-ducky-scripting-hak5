@@ -1,0 +1,14 @@
+REM Title: Solution for Exercise 2-2
+REM Author: Agneay B Nair
+REM Target: Windows 11
+
+DELAY 2000
+GUI r
+DELAY 200
+STRINGLN notepad
+DELAY 500
+
+STRING Hello,
+WAIT_FOR_BUTTON_PRESS
+STRING World!
+

@@ -1,0 +1,1 @@
+STRING Press the button...WAIT_FOR_BUTTON_PRESSSTRING The button was pressed!

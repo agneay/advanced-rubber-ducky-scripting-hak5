@@ -1,0 +1,13 @@
+REM Title: Solution for exercise 3-1
+REM Author: Agneay B Nair
+REM Target: Windows 11
+
+ATTACKMODE HID
+GUI r
+DELAY 200
+STRINGLN notepad
+DELAY 200
+STRING Hello, World!
+
+WAIT_FOR_BUTTON_PRESS
+ATTACKMODE STORAGE

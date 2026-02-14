@@ -1,0 +1,1 @@
+LED_RREM First Stage Payload Code...REM Wait for operator to assess target REM before executing second stage.WAIT_FOR_BUTTON_PRESSLED_GREM Second Stage Payload Code...

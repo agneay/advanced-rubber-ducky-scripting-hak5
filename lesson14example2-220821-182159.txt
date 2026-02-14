@@ -1,0 +1,1 @@
+REM This payload targets Windows systems and will open the defined website.DEFINE WEBSITE http://example.comDELAY 2000GUI rDELAY 500STRING WEBSITEENTER

@@ -1,0 +1,1 @@
+IF ($_BUTTON_ENABLED == TRUE) THEN    REM The button is enabledELSE IF ($_BUTTON_ENABLED == FALSE) THEN    REM The button is disabledEND_IF

@@ -1,0 +1,1 @@
+BUTTON_DEF  STRING This will never executeEND_BUTTONDISABLE_BUTTONSTRING The button is disabledWHILE TRUE  STRING .  DELAY 1000END_WHILE

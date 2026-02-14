@@ -1,0 +1,17 @@
+REM Title: Solution for Exercise 2-1
+REM Author: Agneay B Nair
+REM Target: Windows 11
+
+DELAY 2000
+GUI r
+DELAY 200
+STRINGLN notepad
+DELAY 500
+
+STRING Hello, World!
+
+LED_G
+DELAY 250
+LED_OFF
+DELAY 250
+REPEAT 9
