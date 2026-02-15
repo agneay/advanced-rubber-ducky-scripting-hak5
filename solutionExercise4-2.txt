@@ -1,0 +1,14 @@
+REM Title: solution for exercise-4-1
+REM Author: Agneay B Nair
+REM Description: For solving exercise
+ATTACKMODE HID 
+DELAY 200
+REM define your name below
+DEFINE YOUR_NAME Agneay
+REM modify this to change website
+DEFINE WEBSITE https://www.example.com
+GUI r
+STRINGLN $WEBSITE
+
+REM going fullscreen
+F11

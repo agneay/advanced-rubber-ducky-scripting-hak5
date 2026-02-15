@@ -1,0 +1,34 @@
+REM Exercise: HID re-enumeration with changing product names
+
+ATTACKMODE HID
+
+DEFINE P1 Never
+DEFINE P2 Gonna
+DEFINE P3 Give
+DEFINE P4 You
+DEFINE P5 Up
+
+REM Enumeration 1
+USB_RESET
+USB_PRODUCT $P1
+DELAY 1500
+
+REM Enumeration 2
+USB_RESET
+USB_PRODUCT $P2
+DELAY 1500
+
+REM Enumeration 3
+USB_RESET
+USB_PRODUCT $P3
+DELAY 1500
+
+REM Enumeration 4
+USB_RESET
+USB_PRODUCT $P4
+DELAY 1500
+
+REM Enumeration 5
+USB_RESET
+USB_PRODUCT $P5
+DELAY 1500

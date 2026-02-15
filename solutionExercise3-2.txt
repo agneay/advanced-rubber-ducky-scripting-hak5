@@ -1,0 +1,9 @@
+REM macOS Keyboard Setup Assistant Bypass
+
+ATTACKMODE HID
+
+USB_VID 0x05AC
+USB_PID 0x0250
+USB_PRODUCT "Apple Internal Keyboard / Trackpad"
+
+DELAY 2000

@@ -1,0 +1,9 @@
+REM solution for exercise-4-1
+ATTACKMODE HID 
+DELAY 200
+DEFINE WEBSITE https://www.example.com
+GUI r
+STRINGLN $WEBSITE
+
+REM going fullscreen
+F11
